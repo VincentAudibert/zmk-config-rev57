@@ -1,124 +1,296 @@
 layers:
-  base: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ENTER, TAB, Q, W, E, R, T, Y, U, I, O, P, '{', LSHIFT, A, S, D, F, G, LGUI, H, J, K, L, UP ARROW,
-    '"', LCTRL, Z, X, C, V, B, N, M, ',', LEFT, DOWN ARROW, RIGHT, LCTRL, SPACE, LALT, fun_nav, '~', '~', RGUI, BACKSPACE]
-  fun_nav:
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - DEL
-  - '`'
+  base:
+  - {t: '`', h: ESCAPE}
+  - '1'
+  - AGr+ 2
+  - AGr+ 3
+  - {t: '4', h: AGr+ 4}
+  - {t: '5', h: AGr+ 5}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: '-', h: '='}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '{', h: '}'}
+  - CLCK
+  - {t: A, h: LEFT META}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
+  - {t: G, h: Sft+ G}
+  - {t: game, h: toggle}
+  - {t: H, h: '#'}
+  - {t: J, h: LEFT SHIFT}
+  - {t: K, h: LEFT CONTROL}
+  - {t: L, h: LEFT ALT}
+  - {t: ;, h: LEFT META}
+  - ''''
+  - LEFT SHIFT
+  - LEFT CONTROL
+  - Z
+  - X
+  - C
+  - {t: V, h: Sft+ V}
+  - {t: B, h: Sft+ N}
+  - M
+  - ','
+  - .
+  - /
+  - ENTER
+  - {t: LEFT META, type: held}
+  - LEFT ALT
+  - {t: BACKSPACE, h: mouse}
+  - {t: ESCAPE, h: numpad}
+  - BACKSPACE
+  - SPACE
+  - Fn-move
+  - {t: RIGHT ALT, type: held}
+  Fn-move:
   - F1
   - F2
   - F3
   - F4
-  - '{'
-  - '}'
-  - HOME
-  - UP
-  - END
-  - PG UP
-  - '"'
-  - {t: ▽, type: trans}
   - F5
   - F6
   - F7
   - F8
-  - (
-  - {t: ▽, type: trans}
-  - )
-  - LEFT
-  - DOWN
-  - RIGHT
-  - PG DN
-  - INS
-  - {t: ▽, type: trans}
   - F9
   - F10
   - F11
   - F12
-  - '['
-  - ']'
-  - APP
-  - PSCRN
-  - SLCK
-  - PAUSE BREAK
-  - {t: ▽, type: trans}
-  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: VOL DN, type: held}
-  - VOL UP
   - {t: ▽, type: trans}
-  - MUTE
-  - ''
-  blutut:
-  - OUT TOG
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT CLR
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT META
+  - LEFT ALT
+  - LEFT CONTROL
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - PAGE DOWN
+  - PAGE UP
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  numpad:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - LEFT CONTROL
+  - LEFT ALT
+  - LEFT META
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  game:
+  - {t: '`', h: ESCAPE}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: '-', h: '='}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '{', h: '}'}
+  - CLCK
+  - A
+  - S
+  - D
+  - F
+  - G
+  - ''
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LEFT SHIFT
+  - LEFT CONTROL
+  - Z
+  - X
+  - C
+  - V
+  - {t: B, h: Sft+ N}
+  - M
+  - ','
+  - .
+  - /
+  - ENTER
+  - LEFT META
+  - LEFT ALT
+  - SPACE
+  - numpad
+  - BACKSPACE
+  - SPACE
+  - Fn-move
+  - {t: base, h: toggle}
 combos:
 - p: [4, 5, 6, 7]
   k: '&bootloader'
 - p: [49, 56]
-  k: blutut
+  k: base

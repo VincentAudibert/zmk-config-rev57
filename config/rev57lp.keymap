@@ -34,11 +34,11 @@
 
         base {
             bindings = <
-&mt ESCAPE GRAVE  &kp N1            &kp RA(N2)      &kp RA(N3)          &mt RA(N4) N4     &mt RA(N5) N5                               &kp N6             &kp N7            &kp N8              &kp N9          &kp N0                   &mt EQUAL MINUS
-&kp TAB           &kp Q             &kp W           &kp E               &kp R             &kp T                                       &kp Y              &kp U             &kp I               &kp O           &kp P                    &mt RBRC LBRC
-&kp CLCK          &mt LEFT_META A   &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &mt LS(G) G           &to 4                 &mt NON_US_HASH H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_META SEMICOLON  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT    &kp LEFT_CONTROL  &kp Z           &kp X               &kp C             &mt LS(V) V                                 &mt LS(N) B        &kp M             &kp COMMA           &kp DOT         &kp SLASH                &kp ENTER
-                                                    &kp LEFT_META       &kp LEFT_ALT      &lt 3 SPACE    &mo 2         &kp BACKSPACE  &kp SPACE          &mo 1             &kp RIGHT_ALT
+&mt ESCAPE GRAVE  &kp N1            &kp RA(N2)      &kp RA(N3)          &mt RA(N4) N4     &mt RA(N5) N5                                        &kp N6             &kp N7            &kp N8              &kp N9          &kp N0                   &mt EQUAL MINUS
+&kp TAB           &kp Q             &kp W           &kp E               &kp R             &kp T                                                &kp Y              &kp U             &kp I               &kp O           &kp P                    &mt RBRC LBRC
+&kp CLCK          &mt LEFT_META A   &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &mt LS(G) G                    &to 4                 &mt NON_US_HASH H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_META SEMICOLON  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT    &kp LEFT_CONTROL  &kp Z           &kp X               &kp C             &mt LS(V) V                                          &mt LS(N) B        &kp M             &kp COMMA           &kp DOT         &kp SLASH                &kp ENTER
+                                                    &kp LEFT_META       &kp LEFT_ALT      &lt 3 BACKSPACE  &lt 2 ESCAPE         &kp BACKSPACE  &kp SPACE          &mo 1             &kp RIGHT_ALT
             >;
         };
 
@@ -52,7 +52,7 @@
             >;
         };
 
-        numpad-mouse {
+        numpad {
             bindings = <
 &trans  &trans  &trans           &trans           &trans           &trans                          &trans  &trans          &trans            &trans        &trans         &trans
 &trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans                          &trans  &trans          &trans            &trans        &trans         &trans
