@@ -12,6 +12,11 @@
 #define FNAV    1
 #define BT      2
 
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
