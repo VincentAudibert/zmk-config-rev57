@@ -128,8 +128,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - BRI UP
+  - VOLUME UP
   - KP 7
   - KP 8
   - KP 9
@@ -140,8 +140,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - BRI DN
+  - VOLUME DOWN
   - KP 4
   - KP 5
   - KP 6
@@ -154,7 +154,7 @@ layers:
   - LEFT META
   - ''
   - ''
-  - ''
+  - MUTE
   - KP 1
   - KP 2
   - KP 3
@@ -224,7 +224,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - {type: held}
   - ''
   - ''
