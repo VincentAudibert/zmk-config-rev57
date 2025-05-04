@@ -50,10 +50,10 @@ layers:
   - /
   - ENTER
   - {t: LEFT META, type: held}
-  - {t: BACKSPACE, h: mouse}
-  - {t: ESCAPE, h: numpad}
-  - ''
-  - ''
+  - {t: BACKSPACE, h: numpad}
+  - {t: ESCAPE, h: mouse}
+  - DELETE
+  - INSERT
   - ENTER
   - {t: SPACE, h: Fn-move}
   - {t: RIGHT ALT, type: held}
@@ -166,8 +166,8 @@ layers:
   - ''
   - ''
   - KP 0
-  - ''
   - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -224,8 +224,8 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
   - ''
   - ''
   - '&mkp LCLK'
