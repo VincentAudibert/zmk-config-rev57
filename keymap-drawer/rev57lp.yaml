@@ -23,7 +23,7 @@ layers:
   - I
   - O
   - P
-  - {t: '{', h: '}'}
+  - {t: '[', h: ']'}
   - CLCK
   - {t: A, h: LEFT META}
   - {t: S, h: LEFT ALT}
