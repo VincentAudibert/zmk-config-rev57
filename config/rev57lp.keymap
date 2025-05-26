@@ -59,11 +59,11 @@
 
         numpad {
             bindings = <
-&none  &kp C_BRI_DN   &kp C_BRI_UP     &kp K_VOL_DN     &kp K_VOL_UP     &kp K_MUTE                       &none  &none           &none             &none         &none          &none
-&none  &none          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none                            &none  &none           &none             &none         &none          &none
-&none  &kp LEFT_META  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none              &none         &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_META  &none
-&none  &none          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none                            &none  &none           &none             &none         &none          &none
-                                       &kp KP_NUMBER_0  &trans           &none       &none         &none  &none  &none           &none
+&none          &kp C_PREV     &kp C_PLAY       &kp C_PAUSE      &kp C_NEXT       &kp K_MUTE                            &none  &none           &none             &none         &none          &none
+&kp C_BRI_INC  &none          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp C_VOLUME_UP                       &none  &none           &none             &none         &none          &none
+&kp C_BRI_DN   &kp LEFT_META  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp C_VOL_DN            &none         &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_META  &none
+&none          &none          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none                                 &none  &none           &none             &none         &none          &none
+                                               &kp KP_NUMBER_0  &trans           &none            &none         &none  &none  &none           &none
             >;
         };
 

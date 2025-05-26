@@ -117,10 +117,10 @@ layers:
   - ''
   numpad:
   - ''
-  - BRI DN
-  - BRI UP
-  - VOL DN
-  - VOL UP
+  - PREV
+  - PLAY
+  - PAUSE
+  - NEXT
   - MUTE
   - ''
   - ''
@@ -128,24 +128,24 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - BRI INC
   - ''
   - KP 7
   - KP 8
   - KP 9
+  - VOLUME UP
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - BRI DN
   - LEFT META
   - KP 4
   - KP 5
   - KP 6
-  - ''
+  - VOL DN
   - ''
   - ''
   - LEFT SHIFT
