@@ -221,7 +221,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(303, 133) rotate(15.0)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">R</text>
-<text x="0" y="24" class="key hold">)</text>
+<text x="0" y="24" class="key hold">-</text>
 </g>
 <g transform="translate(357, 162) rotate(15.0)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -317,7 +317,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(785, 144) rotate(-15.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&#x27;</text>
-<text x="0" y="24" class="key hold">-</text>
+<text x="0" y="24" class="key hold">=</text>
 </g>
 <g transform="translate(36, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>

@@ -16,7 +16,7 @@ layers:
   - {t: Q, h: 'Gui+ ]'}
   - W
   - E
-  - {t: R, h: )}
+  - {t: R, h: '-'}
   - T
   - Y
   - U
@@ -36,7 +36,7 @@ layers:
   - {t: K, h: LEFT CONTROL}
   - {t: L, h: LEFT ALT}
   - {t: ;, h: LEFT META}
-  - {t: '''', h: '-'}
+  - {t: '''', h: '='}
   - LEFT SHIFT
   - LEFT CONTROL
   - {t: Z, h: Gui+ C}
