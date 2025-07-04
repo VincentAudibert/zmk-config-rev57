@@ -15,8 +15,8 @@ layers:
   - TAB
   - {t: Q, h: 'Gui+ ]'}
   - W
-  - {t: E, h: )}
-  - R
+  - E
+  - {t: R, h: )}
   - T
   - Y
   - U
@@ -50,12 +50,12 @@ layers:
   - /
   - ENTER
   - LEFT META
-  - {t: SPACE, h: Fn-move-mouse}
-  - {t: SPACE, h: numpad}
+  - numpad
+  - SPACE
   - DELETE
   - INSERT
   - SPACE
-  - SPACE
+  - Fn-move-mouse
   - RIGHT ALT
   Fn-move-mouse:
   - F1
@@ -108,12 +108,12 @@ layers:
   - '&mkp MB5'
   - ''
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
   - ''
   numpad:
   - ''
@@ -166,8 +166,8 @@ layers:
   - ''
   - ''
   - KP 0
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
