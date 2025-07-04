@@ -11,11 +11,11 @@ layers:
   - {t: '8', h: F8}
   - {t: '9', h: F9}
   - {t: '0', h: F10}
-  - {t: '-', h: '='}
+  - BACKSPACE
   - TAB
   - {t: Q, h: 'Gui+ ]'}
   - W
-  - E
+  - {t: E, h: )}
   - R
   - T
   - Y
@@ -36,12 +36,12 @@ layers:
   - {t: K, h: LEFT CONTROL}
   - {t: L, h: LEFT ALT}
   - {t: ;, h: LEFT META}
-  - ''''
+  - {t: '''', h: '-'}
   - LEFT SHIFT
   - LEFT CONTROL
   - {t: Z, h: Gui+ C}
   - {t: X, h: Gui+ H}
-  - {t: C, h: Gui+ C}
+  - {t: C, h: Gui+ U}
   - {t: V, h: Sft+ V}
   - {t: B, h: Sft+ N}
   - M
@@ -51,7 +51,7 @@ layers:
   - ENTER
   - LEFT META
   - {t: SPACE, h: Fn-move-mouse}
-  - {t: BACKSPACE, h: numpad}
+  - {t: SPACE, h: numpad}
   - DELETE
   - INSERT
   - SPACE

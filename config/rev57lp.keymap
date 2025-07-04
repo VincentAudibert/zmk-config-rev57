@@ -25,11 +25,11 @@
 
         base {
             bindings = <
-&mt ESCAPE GRAVE  &mt F1 N1                &mt F2 RA(N2)   &mt F3 RA(N3)       &mt F4 N4         &mt F5 N5                                       &mt F6 N6          &mt F7 N7         &mt F8 N8           &mt F9 N9       &mt F10 N0               &mt EQUAL MINUS
-&kp TAB           &mt LG(RIGHT_BRACKET) Q  &kp W           &kp E               &kp R             &kp T                                           &kp Y              &kp U             &kp I               &mt F11 O       &mt F12 P                &mt RIGHT_BRACKET LEFT_BRACKET
-&kp CLCK          &mt LEFT_META A          &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &mt LS(G) G                  &to 3              &mt NON_US_HASH H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_META SEMICOLON  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT    &kp LEFT_CONTROL         &mt LG(C) Z     &mt LG(H) X         &mt LG(C) C       &mt LS(V) V                                     &mt LS(N) B        &kp M             &kp COMMA           &kp DOT         &kp SLASH                &kp ENTER
-                                                           &kp LEFT_META       &lt 1 SPACE       &lt 2 BACKSPACE  &kp DELETE         &kp INSERT  &kp SPACE          &kp SPACE         &kp RIGHT_ALT
+&mt ESCAPE GRAVE  &mt F1 N1                &mt F2 RA(N2)   &mt F3 RA(N3)            &mt F4 N4         &mt F5 N5                                   &mt F6 N6          &mt F7 N7         &mt F8 N8           &mt F9 N9       &mt F10 N0               &kp BACKSPACE
+&kp TAB           &mt LG(RIGHT_BRACKET) Q  &kp W           &mt RIGHT_PARENTHESIS E  &kp R             &kp T                                       &kp Y              &kp U             &kp I               &mt F11 O       &mt F12 P                &mt RIGHT_BRACKET LEFT_BRACKET
+&kp CLCK          &mt LEFT_META A          &mt LEFT_ALT S  &mt LEFT_CONTROL D       &mt LEFT_SHIFT F  &mt LS(G) G              &to 3              &mt NON_US_HASH H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_META SEMICOLON  &mt MINUS SINGLE_QUOTE
+&kp LEFT_SHIFT    &kp LEFT_CONTROL         &mt LG(C) Z     &mt LG(H) X              &mt LG(U) C       &mt LS(V) V                                 &mt LS(N) B        &kp M             &kp COMMA           &kp DOT         &kp SLASH                &kp ENTER
+                                                           &kp LEFT_META            &lt 1 SPACE       &lt 2 SPACE  &kp DELETE         &kp INSERT  &kp SPACE          &kp SPACE         &kp RIGHT_ALT
             >;
         };
 

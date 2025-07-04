@@ -199,8 +199,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(755, 35) rotate(-15.0)" class="key keypos-11">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">-</text>
-<text x="0" y="24" class="key hold">=</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 <g transform="translate(65, 105) rotate(15.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -218,6 +217,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(249, 104) rotate(15.0)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">E</text>
+<text x="0" y="24" class="key hold">)</text>
 </g>
 <g transform="translate(303, 133) rotate(15.0)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -317,6 +317,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(785, 144) rotate(-15.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&#x27;</text>
+<text x="0" y="24" class="key hold">-</text>
 </g>
 <g transform="translate(36, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -343,7 +344,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(274, 241) rotate(15.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">C</text>
-<text x="0" y="24" class="key hold">Gui+ C</text>
+<text x="0" y="24" class="key hold">Gui+ U</text>
 </g>
 <g transform="translate(328, 270) rotate(15.0)" class="key keypos-42">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -389,7 +390,7 @@ path.combo { stroke: #7f7f7f; }
 </a></g>
 <g transform="translate(313, 323) rotate(15.0)" class="key keypos-51">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<text x="0" y="0" class="key tap">SPACE</text>
 <a href="#numpad">
 <text x="0" y="24" class="key hold layer-activator">numpad</text>
 </a></g>
