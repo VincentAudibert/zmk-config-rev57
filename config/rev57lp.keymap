@@ -39,21 +39,21 @@
 
         base {
             bindings = <
-&mt ESCAPE GRAVE  &mt F1 N1         &mt F2 RA(N2)   &mt F3 RA(N3)       &mt F4 N4         &mt F5 N5                                    &mt F6 N6          &mt F7 N7         &mt F8 N8           &mt F9 N9       &mt F10 N0               &mt EQUAL MINUS
-&kp TAB           &kp Q             &kp W           &kp E               &kp R             &kp T                                        &kp Y              &kp U             &kp I               &mt F11 O       &mt F12 P                &mt RIGHT_BRACKET LEFT_BRACKET
-&kp CLCK          &mt LEFT_META A   &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &mt LS(G) G               &to 3              &mt NON_US_HASH H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_META SEMICOLON  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT    &kp LEFT_CONTROL  &kp Z           &kp X               &kp C             &mt LS(V) V                                  &mt LS(N) B        &kp M             &kp COMMA           &kp DOT         &kp SLASH                &kp ENTER
-                                                    &kp LEFT_META       &lt 2 BACKSPACE   &lt 2 ESCAPE  &kp DELETE         &kp INSERT  &kp ENTER          &lt 1 SPACE       &kp RIGHT_ALT
+&mt ESCAPE GRAVE  &mt F1 N1         &mt F2 RA(N2)   &mt F3 RA(N3)       &mt F4 N4         &mt F5 N5                                       &mt F6 N6          &mt F7 N7         &mt F8 N8           &mt F9 N9       &mt F10 N0               &mt EQUAL MINUS
+&kp TAB           &kp Q             &kp W           &kp E               &kp R             &kp T                                           &kp Y              &kp U             &kp I               &mt F11 O       &mt F12 P                &mt RIGHT_BRACKET LEFT_BRACKET
+&kp CLCK          &mt LEFT_META A   &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &mt LS(G) G                  &to 3              &mt NON_US_HASH H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_META SEMICOLON  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT    &kp LEFT_CONTROL  &mt LG(C) Z     &mt LG(H) X         &mt LG(C) C       &mt LS(V) V                                     &mt LS(N) B        &kp M             &kp COMMA           &kp DOT         &kp SLASH                &kp ENTER
+                                                    &kp LEFT_META       &lt 1 SPACE       &lt 2 BACKSPACE  &kp DELETE         &kp INSERT  &kp SPACE          &kp SPACE         &kp RIGHT_ALT
             >;
         };
 
         Fn-move-mouse {
             bindings = <
-&kp F1  &kp F2         &kp F3        &kp F4            &kp F5          &kp F6                                    &kp F7    &kp F8          &kp F9          &kp F10       &kp F11          &kp F12
-&none   &none          &none         &none             &none           &msc SCRL_UP                              &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
-&none   &kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &msc SCRL_DOWN              &none         &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &kp END
-&trans  &trans         &none         &none             &msc SCRL_LEFT  &msc SCRL_RIGHT                           &none     &mkp MB4        &kp PAGE_DOWN   &kp PAGE_UP   &mkp MB5         &none
-                                     &none             &mkp LCLK       &mkp MCLK        &mkp RCLK         &none  &none     &trans          &none
+&kp F1  &kp F2         &kp F3        &kp F4            &kp F5          &kp F6                                 &kp F7    &kp F8          &kp F9          &kp F10       &kp F11          &kp F12
+&none   &none          &none         &none             &none           &msc SCRL_UP                           &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
+&none   &kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &msc SCRL_DOWN           &none         &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &kp END
+&trans  &trans         &none         &none             &msc SCRL_LEFT  &msc SCRL_RIGHT                        &none     &mkp MB4        &kp PAGE_DOWN   &kp PAGE_UP   &mkp MB5         &none
+                                     &none             &trans          &trans           &trans         &none  &none     &trans          &none
             >;
         };
 

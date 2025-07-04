@@ -39,9 +39,9 @@ layers:
   - ''''
   - LEFT SHIFT
   - LEFT CONTROL
-  - Z
-  - X
-  - C
+  - {t: Z, h: Gui+ C}
+  - {t: X, h: Gui+ H}
+  - {t: C, h: Gui+ C}
   - {t: V, h: Sft+ V}
   - {t: B, h: Sft+ N}
   - M
@@ -50,12 +50,12 @@ layers:
   - /
   - ENTER
   - {t: LEFT META, type: held}
+  - {t: SPACE, h: Fn-move-mouse}
   - {t: BACKSPACE, h: numpad}
-  - {t: ESCAPE, h: numpad}
   - DELETE
   - INSERT
-  - ENTER
-  - {t: SPACE, h: Fn-move-mouse}
+  - SPACE
+  - SPACE
   - {t: RIGHT ALT, type: held}
   Fn-move-mouse:
   - F1
@@ -108,12 +108,12 @@ layers:
   - '&mkp MB5'
   - ''
   - ''
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
-  - ''
-  - ''
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
   - ''
   numpad:
   - ''
@@ -166,8 +166,8 @@ layers:
   - ''
   - ''
   - KP 0
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
   - ''
   - ''
   - ''
