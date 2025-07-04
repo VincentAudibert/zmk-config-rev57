@@ -13,7 +13,7 @@ layers:
   - {t: '0', h: F10}
   - {t: '-', h: '='}
   - TAB
-  - Q
+  - {t: Q, h: 'Gui+ ]'}
   - W
   - E
   - R
@@ -49,14 +49,14 @@ layers:
   - .
   - /
   - ENTER
-  - {t: LEFT META, type: held}
+  - LEFT META
   - {t: SPACE, h: Fn-move-mouse}
   - {t: BACKSPACE, h: numpad}
   - DELETE
   - INSERT
   - SPACE
   - SPACE
-  - {t: RIGHT ALT, type: held}
+  - RIGHT ALT
   Fn-move-mouse:
   - F1
   - F2
@@ -231,8 +231,3 @@ layers:
   - SPACE
   - ''
   - {t: base, h: toggle}
-combos:
-- p: [4, 5, 6, 7]
-  k: '&bootloader'
-- p: [49, 56]
-  k: base
