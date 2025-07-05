@@ -11,12 +11,12 @@ layers:
   - {t: '8', h: F8}
   - {t: '9', h: F9}
   - {t: '0', h: F10}
-  - BACKSPACE
+  - {t: '-', h: '='}
   - TAB
   - {t: Q, h: 'Gui+ ]'}
   - W
   - E
-  - {t: R, h: '-'}
+  - R
   - T
   - Y
   - U
@@ -36,7 +36,7 @@ layers:
   - {t: K, h: LEFT CONTROL}
   - {t: L, h: LEFT ALT}
   - {t: ;, h: LEFT META}
-  - {t: '''', h: '='}
+  - ''''
   - LEFT SHIFT
   - LEFT CONTROL
   - {t: Z, h: Gui+ C}
