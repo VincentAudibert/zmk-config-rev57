@@ -50,7 +50,7 @@ layers:
   - /
   - ENTER
   - LEFT META
-  - {t: SPACE, h: numpad}
+  - {t: BACKSPACE, h: numpad}
   - {t: SPACE, h: media}
   - DELETE
   - INSERT
