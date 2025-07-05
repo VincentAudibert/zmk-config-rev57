@@ -51,7 +51,7 @@ layers:
   - ENTER
   - LEFT META
   - {t: BACKSPACE, h: numpad}
-  - {t: SPACE, h: media}
+  - {t: ESCAPE, h: media}
   - DELETE
   - INSERT
   - SPACE
