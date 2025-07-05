@@ -27,15 +27,15 @@
             bindings = <
 &mt ESCAPE GRAVE  &mt F1 N1                &mt F2 RA(N2)   &mt F3 RA(N3)       &mt F4 N4         &mt F5 N5                                   &mt F6 N6          &mt F7 N7         &mt F8 N8           &mt F9 N9       &mt F10 N0               &kp BACKSPACE
 &kp TAB           &mt LG(RIGHT_BRACKET) Q  &kp W           &kp E               &mt MINUS R       &kp T                                       &kp Y              &kp U             &kp I               &mt F11 O       &mt F12 P                &mt RIGHT_BRACKET LEFT_BRACKET
-&kp CLCK          &mt LEFT_META A          &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &mt LS(G) G              &to 3              &mt NON_US_HASH H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_META SEMICOLON  &mt EQUAL SINGLE_QUOTE
+&kp CLCK          &mt LEFT_META A          &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &mt LS(G) G              &to 4              &mt NON_US_HASH H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_META SEMICOLON  &mt EQUAL SINGLE_QUOTE
 &kp LEFT_SHIFT    &kp LEFT_CONTROL         &mt LG(C) Z     &mt LG(H) X         &mt LG(U) C       &mt LS(V) V                                 &mt LS(N) B        &kp M             &kp COMMA           &kp DOT         &kp SLASH                &kp ENTER
-                                                           &kp LEFT_META       &mo 2             &kp SPACE    &kp DELETE         &kp INSERT  &kp SPACE          &mo 1             &kp RIGHT_ALT
+                                                           &kp LEFT_META       &lt 2 SPACE       &lt 3 SPACE  &kp DELETE         &kp INSERT  &kp SPACE          &lt 1 SPACE       &kp RIGHT_ALT
             >;
         };
 
         Fn-move-mouse {
             bindings = <
-&kp F1  &kp F2         &kp F3        &kp F4            &kp F5          &kp F6                                 &kp F7    &kp F8          &kp F9          &kp F10       &kp F11          &kp F12
+&none   &none          &none         &none             &none           &none                                  &none     &none           &none           &none         &none            &none
 &none   &none          &none         &none             &none           &msc SCRL_UP                           &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
 &none   &kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &msc SCRL_DOWN           &none         &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &kp END
 &trans  &trans         &none         &none             &msc SCRL_LEFT  &msc SCRL_RIGHT                        &none     &mkp MB4        &kp PAGE_DOWN   &kp PAGE_UP   &mkp MB5         &none
@@ -45,11 +45,21 @@
 
         numpad {
             bindings = <
-&none          &kp C_PREV     &kp C_PLAY       &kp C_PAUSE      &kp C_NEXT       &kp K_MUTE                            &none  &none           &none             &none         &none          &none
-&kp C_BRI_INC  &none          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp C_VOLUME_UP                       &none  &none           &none             &none         &none          &none
-&kp C_BRI_DN   &kp LEFT_META  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp C_VOL_DN            &none         &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_META  &none
-&none          &none          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none                                 &none  &none           &none             &none         &none          &none
-                                               &kp KP_NUMBER_0  &trans           &trans           &none         &none  &none  &none           &none
+&none  &none          &none            &none            &none            &none                        &none  &none           &none             &none         &none          &none
+&none  &none          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none                        &none  &none           &none             &none         &none          &none
+&none  &kp LEFT_META  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans         &none         &none  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_META  &none
+&none  &none          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans                       &none  &none           &none             &none         &none          &none
+                                       &kp KP_NUMBER_0  &trans           &trans  &none         &none  &none  &none           &none
+            >;
+        };
+
+        media {
+            bindings = <
+&trans  &trans                &trans      &trans            &trans      &trans                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp K_PREVIOUS        &kp K_STOP  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp K_MUTE                                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_BRIGHTNESS_INC  &trans      &trans            &trans      &kp C_VOLUME_UP            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_BRIGHTNESS_DEC  &trans      &trans            &trans      &kp C_VOLUME_DOWN                          &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans            &trans      &trans             &trans          &trans  &trans  &trans  &trans
             >;
         };
 
