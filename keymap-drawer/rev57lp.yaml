@@ -1,6 +1,6 @@
 layers:
   base:
-  - {t: '`', h: ESCAPE}
+  - '`'
   - {t: '1', h: F1}
   - {t: AGr+ 2, h: F2}
   - {t: AGr+ 3, h: F3}
@@ -12,7 +12,7 @@ layers:
   - {t: '9', h: F9}
   - {t: '0', h: F10}
   - {t: '-', h: '='}
-  - TAB
+  - ESCAPE
   - {t: Q, h: 'Gui+ ]'}
   - W
   - E
@@ -24,7 +24,7 @@ layers:
   - {t: O, h: F11}
   - {t: P, h: F12}
   - {t: '[', h: ']'}
-  - CLCK
+  - TAB
   - {t: A, h: LEFT META}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
