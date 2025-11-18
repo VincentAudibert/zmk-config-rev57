@@ -46,7 +46,7 @@ layers:
   - {t: B, h: Sft+ N}
   - M
   - ','
-  - .
+  - {t: ., h: RALT}
   - /
   - ENTER
   - LEFT META
@@ -325,4 +325,55 @@ combos:
   l: [base]
 - p: [23, 36]
   k: {t: '-', h: F12}
+  l: [base]
+- p: [32, 44]
+  k: LEFT ARROW
+  l: [base]
+- p: [33, 45]
+  k: DOWN ARROW
+  l: [base]
+- p: [34, 46]
+  k: UP ARROW
+  l: [base]
+- p: [35, 47]
+  k: RIGHT ARROW
+  l: [base]
+- p: [44, 43]
+  k: {t: SPACE, h: Fn-move-mouse}
+  l: [base]
+- p: [42, 41]
+  k: BACKSPACE
+  l: [base]
+- p: [29, 28]
+  k: KP 0
+  l: [base]
+- p: [38, 39]
+  k: KP 1
+  l: [base]
+- p: [39, 40]
+  k: KP 2
+  l: [base]
+- p: [40, 41]
+  k: KP 3
+  l: [base]
+- p: [25, 26]
+  k: KP 4
+  l: [base]
+- p: [26, 27]
+  k: KP 5
+  l: [base]
+- p: [27, 28]
+  k: KP 6
+  l: [base]
+- p: [13, 14]
+  k: KP 7
+  l: [base]
+- p: [14, 15]
+  k: KP 8
+  l: [base]
+- p: [15, 16]
+  k: KP 9
+  l: [base]
+- p: [14, 23]
+  k: '&fat_arrow'
   l: [base]
