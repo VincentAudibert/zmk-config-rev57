@@ -24,61 +24,73 @@
         numrow_2_ralt {
             bindings = <&mt F3 RA(NUMBER_2)>;
             key-positions = <26 14>;
+            layers = <0>;
         };
 
         numrow_3_ralt {
             bindings = <&mt RA(F4) RA(NUMBER_3)>;
             key-positions = <15 27>;
+            layers = <0>;
         };
 
         numrow_4 {
             bindings = <&mt F5 NUMBER_4>;
             key-positions = <16 28>;
+            layers = <0>;
         };
 
         numrow_1 {
             bindings = <&mt F2 NUMBER_1>;
             key-positions = <13 25>;
+            layers = <0>;
         };
 
         numrow_backtick {
             bindings = <&mt F1 GRAVE>;
             key-positions = <12 24>;
+            layers = <0>;
         };
 
         numrow_5 {
             bindings = <&mt F6 N5>;
             key-positions = <17 29>;
+            layers = <0>;
         };
 
         numrow_6 {
             bindings = <&mt F7 NUMBER_6>;
             key-positions = <18 31>;
+            layers = <0>;
         };
 
         numrow_7 {
             bindings = <&mt F8 N7>;
             key-positions = <19 32>;
+            layers = <0>;
         };
 
         numrow_8 {
             bindings = <&mt F9 N8>;
             key-positions = <20 33>;
+            layers = <0>;
         };
 
         numrow_9 {
             bindings = <&mt F10 N9>;
             key-positions = <21 34>;
+            layers = <0>;
         };
 
         numrow_0 {
             bindings = <&mt F11 N0>;
             key-positions = <22 35>;
+            layers = <0>;
         };
 
         numrow_degree {
             bindings = <&mt F12 MINUS>;
             key-positions = <23 36>;
+            layers = <0>;
         };
     };
 
