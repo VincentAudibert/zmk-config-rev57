@@ -38,7 +38,7 @@ layers:
   - {t: ;, h: LEFT META}
   - {t: '''', h: '='}
   - LEFT SHIFT
-  - LEFT CONTROL
+  - {t: LEFT CONTROL, h: AL WORD}
   - {t: Z, h: Gui+ C}
   - {t: X, h: Gui+ H}
   - {t: C, h: Gui+ U}
@@ -325,4 +325,16 @@ combos:
   l: [base]
 - p: [23, 36]
   k: {t: '-', h: F12}
+  l: [base]
+- p: [32, 44]
+  k: LEFT
+  l: [base]
+- p: [33, 45]
+  k: DOWN
+  l: [base]
+- p: [34, 46]
+  k: UP ARROW
+  l: [base]
+- p: [35, 47]
+  k: RIGHT
   l: [base]
