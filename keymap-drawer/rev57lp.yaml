@@ -38,7 +38,7 @@ layers:
   - {t: ;, h: LEFT META}
   - {t: '''', h: '='}
   - LEFT SHIFT
-  - {t: LEFT CONTROL, h: AL WORD}
+  - LEFT CONTROL
   - {t: Z, h: Gui+ C}
   - {t: X, h: Gui+ H}
   - {t: C, h: Gui+ U}
@@ -52,9 +52,9 @@ layers:
   - LEFT META
   - {t: BACKSPACE, h: numpad}
   - {t: ESCAPE, h: media}
-  - DELETE
+  - '&caps_word'
   - INSERT
-  - SPACE
+  - TAB
   - {t: SPACE, h: Fn-move-mouse}
   - RIGHT ALT
   Fn-move-mouse:
