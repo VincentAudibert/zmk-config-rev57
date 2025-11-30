@@ -128,6 +128,12 @@
             key-positions = <29 28>;
             layers = <0>;
         };
+
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <37 38>;
+            layers = <0>;
+        };
     };
 
     macros {

@@ -344,3 +344,6 @@ combos:
 - p: [29, 28]
   k: BACKSPACE
   l: [base]
+- p: [37, 38]
+  k: CAPSLOCK
+  l: [base]
