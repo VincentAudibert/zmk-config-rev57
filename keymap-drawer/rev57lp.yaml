@@ -192,12 +192,12 @@ layers:
   - PLAY PAUSE
   - NEXT
   - MUTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - BT CLR
   - {t: ▽, type: trans}
   - BRIGHTNESS INC
   - {t: ▽, type: trans}
