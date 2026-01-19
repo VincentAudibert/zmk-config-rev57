@@ -43,7 +43,7 @@ layers:
   - {t: X, h: Gui+ H}
   - {t: C, h: Gui+ U}
   - {t: V, h: Sft+ V}
-  - {t: B, h: Sft+ N}
+  - {t: B, h: N}
   - M
   - ','
   - {t: ., h: RALT}
