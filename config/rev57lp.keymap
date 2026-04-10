@@ -155,7 +155,7 @@
 &kp ESCAPE      &mt LG(RIGHT_BRACKET) Q  &kp W           &kp E               &kp R             &kp T                                        &kp Y              &kp U             &kp I               &kp O           &kp P                    &mt RIGHT_BRACKET LEFT_BRACKET
 &kp TAB         &mt LEFT_META A          &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &mt LS(G) G               &to 4              &mt NON_US_HASH H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_META SEMICOLON  &mt EQUAL SINGLE_QUOTE
 &kp LEFT_SHIFT  &kp LEFT_CONTROL         &mt LG(C) Z     &mt LG(H) X         &mt LG(U) C       &mt LS(V) V                                  &mt N B            &kp M             &kp COMMA           &mt RALT DOT    &kp SLASH                &kp ENTER
-                                                         &kp LEFT_META       &lt 2 BACKSPACE   &lt 3 ESCAPE  &caps_word         &kp INSERT  &kp TAB            &lt 1 SPACE       &kp RIGHT_ALT
+                                                         &kp LEFT_META       &lt 2 BACKSPACE   &lt 3 ESCAPE  &kp DELETE         &kp INSERT  &kp TAB            &lt 1 SPACE       &kp RIGHT_ALT
             >;
         };
 

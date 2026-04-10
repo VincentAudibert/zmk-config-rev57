@@ -52,7 +52,7 @@ layers:
   - LEFT META
   - {t: BACKSPACE, h: numpad}
   - {t: ESCAPE, h: media}
-  - '&caps_word'
+  - DELETE
   - INSERT
   - TAB
   - {t: SPACE, h: Fn-move-mouse}

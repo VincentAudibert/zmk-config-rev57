@@ -395,7 +395,7 @@ path.combo { stroke: #7f7f7f; }
 </a></g>
 <g transform="translate(389, 326)" class="key keypos-52">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
+<text x="0" y="0" class="key tap">DELETE</text>
 </g>
 <g transform="translate(448, 326)" class="key keypos-53">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
