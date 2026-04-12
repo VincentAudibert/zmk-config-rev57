@@ -16,9 +16,6 @@ description: |
   | Clavier     | Board           | Type       | Statut       |
   |-------------|-----------------|------------|--------------|
   | rev57lp     | nice_nano_v2    | monoblock  | ✅ actif     |
-  | corne       | nice_nano_v2    | split (2x) | non utilisé  |
-  | totem       | seeeduino_xiao_ble | split (2x) | non utilisé |
-  | dasbob      | nice_nano_v2    | split (2x) | non utilisé  |
   | biGH        | (à définir)     | (à définir)| 🔜 à ajouter |
 
   ## Clavier actif : rev57lp
