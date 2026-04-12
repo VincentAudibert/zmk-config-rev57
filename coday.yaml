@@ -42,3 +42,13 @@ description: |
   2. Créer `config/biGH.keymap` et `config/biGH.conf`
   3. Ajouter les entrées correspondantes dans `build.yaml`
   4. (Optionnel) Ajouter le layout JSON dans `keymap-drawer/layouts/` pour la génération SVG
+
+mcp:
+  servers:
+    - id: chrome
+      name: CHROME
+      enabled: true
+      args:
+        - ’chrome-devtools-mcp@latest’
+      command: npx
+      debug: false
