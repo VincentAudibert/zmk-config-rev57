@@ -11,16 +11,98 @@
 #define FN    1
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        numrow_backtick {
+            bindings = <&mt GRAVE GRAVE>;
+            key-positions = <0 12>;
+            layers = <0>;
+        };
+
+        numrow_1 {
+            bindings = <&mt F1 NUMBER_1>;
+            key-positions = <1 13>;
+            layers = <0>;
+        };
+
+        numrow_2 {
+            bindings = <&mt F2 NUMBER_2>;
+            key-positions = <2 14>;
+            layers = <0>;
+        };
+
+        numrow_3 {
+            bindings = <&mt F3 NUMBER_3>;
+            key-positions = <3 15>;
+            layers = <0>;
+        };
+
+        numrow_4 {
+            bindings = <&mt F4 NUMBER_4>;
+            key-positions = <4 16>;
+            layers = <0>;
+        };
+
+        numrow_5 {
+            bindings = <&mt F5 N5>;
+            key-positions = <5 17>;
+            layers = <0>;
+        };
+
+        numrow_6 {
+            bindings = <&mt F6 NUMBER_6>;
+            key-positions = <6 18>;
+            layers = <0>;
+        };
+
+        numrow_7 {
+            bindings = <&mt F7 N7>;
+            key-positions = <7 19>;
+            layers = <0>;
+        };
+
+        numrow_8 {
+            bindings = <&mt F8 N8>;
+            key-positions = <8 20>;
+            layers = <0>;
+        };
+
+        numrow_9 {
+            bindings = <&mt F9 N9>;
+            key-positions = <9 21>;
+            layers = <0>;
+        };
+
+        numrow_0 {
+            bindings = <&mt F10 N0>;
+            key-positions = <10 22>;
+            layers = <0>;
+        };
+
+        numrow_degree {
+            bindings = <&mt F11 MINUS>;
+            key-positions = <11 23>;
+            layers = <0>;
+        };
+
+        numrow_equal {
+            bindings = <&mt F12 EQUAL>;
+            key-positions = <23 36>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         base_layer {
             label = "base";
             bindings = <
-&kp ESC    &kp Q     &kp W          &kp E      &kp R     &kp T     &kp Y     &kp U   &kp I      &kp O  &kp P  &none
-&kp TAB    &kp A     &kp S          &kp D      &kp F     &kp G     &kp H     &kp J   &kp K      &kp L  &none  &none
-&kp LCTRL  &kp A     &kp Z          &kp X      &kp C     &kp V     &kp B     &kp N   &kp M      &kp A  &kp A  &kp A  &kp ENTER
-&kp LALT   &kp LALT  &kp BACKSPACE  &kp SPACE  &kp RALT  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
+&kp ESC    &kp Q            &kp W          &kp E               &kp R        &kp T        &kp Y     &kp U             &kp I               &kp O            &kp P                    &mt RIGHT_BRACKET LEFT_BRACKET
+&kp TAB    &mt LEFT_META A  &mt LALT S     &mt LEFT_CONTROL D  &mt LSHFT F  &mt LS(G) G  &kp H     &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt RIGHT_ALT L  &mt LEFT_META SEMICOLON  &mt EQUAL SINGLE_QUOTE
+&kp LCTRL  &kp LSHFT        &kp Z          &kp X               &kp C        &mt LS(V) V  &kp B     &kp N             &kp M               &kp COMMA        &kp DOT                  &kp SLASH                       &kp ENTER
+&kp LALT   &kp LEFT_META    &kp BACKSPACE  &kp SPACE           &kp RALT     &kp LEFT     &kp DOWN  &kp UP            &kp RIGHT
             >;
         };
     };
