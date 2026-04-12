@@ -1,0 +1,47 @@
+description: |
+  ZMK custom keyboards — firmware configuration for mechanical keyboards using the ZMK firmware framework.
+
+  ## Structure du projet
+
+  - `config/west.yml` : manifeste West, pointe sur ZMK v0.2.1 (zmkfirmware/zmk)
+  - `build.yaml` : matrice de build GitHub Actions — définit les combinaisons board/shield à compiler
+  - `config/*.keymap` : keymaps par clavier (fichier principal à éditer pour changer les touches)
+  - `config/*.conf` : configuration Kconfig par clavier (options firmware)
+  - `config/boards/shields/<nom>/` : définition hardware du shield (overlay, Kconfig, zmk.yml)
+  - `boards/shields/` : répertoire alternatif pour les shields (actuellement vide, `.gitkeep`)
+  - `keymap-drawer/` : représentations SVG des keymaps, générées automatiquement via GitHub Actions
+
+  ## Claviers configurés
+
+  | Clavier     | Board           | Type       | Statut       |
+  |-------------|-----------------|------------|--------------|
+  | rev57lp     | nice_nano_v2    | monoblock  | ✅ actif     |
+  | corne       | nice_nano_v2    | split (2x) | non utilisé  |
+  | totem       | seeeduino_xiao_ble | split (2x) | non utilisé |
+  | dasbob      | nice_nano_v2    | split (2x) | non utilisé  |
+  | biGH        | (à définir)     | (à définir)| 🔜 à ajouter |
+
+  ## Clavier actif : rev57lp
+
+  - Shield custom défini dans `config/boards/shields/rev57lp/`
+  - Monoblock ergonomique 57 touches, matrice 5×12 + 1 touche centrale
+  - Microcontrôleur : nice!nano v2 (pro_micro footprint)
+  - 5 layers : `base`, `Fn-move-mouse`, `numpad`, `media`, `game`
+  - Combos extensifs : numrow, flèches, espace, backspace, caps lock
+  - Pointing device activé (`CONFIG_ZMK_POINTING=y`)
+
+  ## CI/CD GitHub Actions
+
+  - `build.yml` : compile tous les shields du `build.yaml` à chaque push sur les fichiers pertinents
+    - Archive nommée `zmk-senz-<date>-<sha>-<run_number>`
+    - Utilise le workflow réutilisable officiel ZMK `build-user-config.yml@v0.2.1`
+  - `draw-keymaps.yml` : régénère les SVG keymap-drawer à chaque modification de `.keymap`
+    - Utilise `keymap-drawer v0.20.0`
+    - Commit automatique des SVG mis à jour (`amend_commit: true`)
+
+  ## Ajouter un nouveau clavier (ex: biGH)
+
+  1. Créer `config/boards/shields/biGH/` avec les fichiers hardware (overlay, Kconfig, zmk.yml)
+  2. Créer `config/biGH.keymap` et `config/biGH.conf`
+  3. Ajouter les entrées correspondantes dans `build.yaml`
+  4. (Optionnel) Ajouter le layout JSON dans `keymap-drawer/layouts/` pour la génération SVG
