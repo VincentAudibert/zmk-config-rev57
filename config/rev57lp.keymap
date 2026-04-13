@@ -24,125 +24,74 @@
 
         numrow_2_ralt {
             bindings = <&mt F3 RA(NUMBER_2)>;
-            key-positions = <26 14>;
+            key-positions = <14 2>;
             layers = <0>;
         };
 
         numrow_3_ralt {
             bindings = <&mt RA(F4) RA(NUMBER_3)>;
-            key-positions = <15 27>;
+            key-positions = <15 3>;
             layers = <0>;
         };
 
         numrow_4 {
             bindings = <&mt F5 NUMBER_4>;
-            key-positions = <16 28>;
+            key-positions = <16 4>;
             layers = <0>;
         };
 
         numrow_1 {
             bindings = <&mt F2 NUMBER_1>;
-            key-positions = <13 25>;
+            key-positions = <13 1>;
             layers = <0>;
         };
 
         numrow_backtick {
             bindings = <&mt F1 GRAVE>;
-            key-positions = <12 24>;
+            key-positions = <12 0>;
             layers = <0>;
         };
 
         numrow_5 {
             bindings = <&mt F6 N5>;
-            key-positions = <17 29>;
+            key-positions = <17 5>;
             layers = <0>;
         };
 
         numrow_6 {
             bindings = <&mt F7 NUMBER_6>;
-            key-positions = <18 31>;
+            key-positions = <18 6>;
             layers = <0>;
         };
 
         numrow_7 {
             bindings = <&mt F8 N7>;
-            key-positions = <19 32>;
+            key-positions = <19 7>;
             layers = <0>;
         };
 
         numrow_8 {
             bindings = <&mt F9 N8>;
-            key-positions = <20 33>;
+            key-positions = <20 8>;
             layers = <0>;
         };
 
         numrow_9 {
             bindings = <&mt F10 N9>;
-            key-positions = <21 34>;
+            key-positions = <21 9>;
             layers = <0>;
         };
 
         numrow_0 {
             bindings = <&mt F11 N0>;
-            key-positions = <22 35>;
+            key-positions = <22 10>;
             layers = <0>;
         };
 
         numrow_degree {
             bindings = <&mt F12 MINUS>;
-            key-positions = <23 36>;
+            key-positions = <23 11>;
             layers = <0>;
-        };
-
-        arrow_left {
-            bindings = <&kp LEFT_ARROW>;
-            key-positions = <32 44>;
-            layers = <0>;
-        };
-
-        arrow_down {
-            bindings = <&kp DOWN_ARROW>;
-            key-positions = <33 45>;
-            layers = <0>;
-        };
-
-        arrow_up {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <34 46>;
-            layers = <0>;
-        };
-
-        arrow_right {
-            bindings = <&kp RIGHT_ARROW>;
-            key-positions = <35 47>;
-            layers = <0>;
-        };
-
-        space {
-            bindings = <&lt 1 SPACE>;
-            key-positions = <31 32>;
-            layers = <0>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <29 28>;
-            layers = <0>;
-        };
-
-        caps_lock {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <37 38>;
-            layers = <0>;
-        };
-    };
-
-    macros {
-        fat_arrow: fat_arrow {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp GT>;
-            label = "FAT_ARROW";
         };
     };
 
@@ -151,31 +100,21 @@
 
         base {
             bindings = <
-&mt F1 GRAVE    &mt F2 N1                &mt F3 RA(N2)     &mt F4 RA(N3)       &mt F5 N4         &mt F6 N5                              &mt F7 N6          &mt F8 N7         &mt F9 N8           &mt F10 N9      &mt F11 N0               &mt F12 MINUS
-&mt ESCAPE TAB  &mt LG(RIGHT_BRACKET) Q  &mt C_PREVIOUS W  &mt C_PLAY_PAUSE E  &mt C_NEXT R      &kp T                                  &kp Y              &kp U             &kp I               &kp O           &kp P                    &mt RIGHT_BRACKET LEFT_BRACKET
-&kp CAPSLOCK    &mt LEFT_META A          &mt LEFT_ALT S    &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &mt LS(G) G              &to 3         &mt NON_US_HASH H  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &mt LEFT_META SEMICOLON  &mt EQUAL SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp LEFT_CONTROL         &mt LG(C) Z       &mt LG(H) X         &mt LG(U) C       &mt LS(V) V                            &mt N B            &mt HOME M        &kp COMMA           &mt RALT DOT    &mt END SLASH            &kp ENTER
-                                                           &kp LEFT_META       &kp BACKSPACE     &mo 2        &kp DELETE         &none  &kp SPACE          &lt 1 SPACE       &kp RIGHT_ALT
-            >;
-        };
-
-        Fn-move-mouse {
-            bindings = <
-&none   &none          &none         &none             &none           &none                         &none  &none           &none           &none         &none      &none
-&trans  &none          &none         &none             &none           &none                         &none  &none           &none           &none         &none      &none
-&trans  &kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none           &none         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none
-&trans  &trans         &none         &none             &none           &none                         &none  &mkp MB4        &kp PAGE_DOWN   &kp PAGE_UP   &mkp MB5   &none
-                                     &trans            &trans          &trans  &trans         &none  &none  &trans          &none
+&mt ESCAPE TAB  &mt LG(RIGHT_BRACKET) Q  &mt C_PREV W  &mt C_PLAY_PAUSE E  &mt C_NEXT R   &kp T                             &kp Y       &kp U           &kp I        &kp O             &kp P           &mt RIGHT_BRACKET LEFT_BRACKET
+&kp CAPSLOCK    &mt LEFT_META A          &mt LALT S    &mt LCTRL D         &mt LSHIFT F   &mt LS(T) G                       &mt NUHS H  &mt LSHFT J     &mt LCTRL K  &mt RALT L        &mt LMETA SEMI  &mt EQUAL SINGLE_QUOTE
+&kp LSHFT       &kp LCTRL                &mt LG(C) Z   &mt LG(H) X         &mt LG(U) C    &mt LS(V) V         &kp B         &kp N       &mt HOME J      &kp COMMA    &mt LEFT_ALT DOT  &mt END SLASH   &kp ENTER
+&none           &none                    &none         &kp LEFT_META       &kp BACKSPACE  &mo 1                             &kp SPACE   &mt RALT SPACE  &kp LEFT     &kp DOWN          &kp UP          &kp RIGHT
+                                                       &none               &none          &none        &none         &none  &none       &none           &none
             >;
         };
 
         numpad {
             bindings = <
-&none   &none                       &none                   &none                         &none                   &none                                &none                 &none           &none             &none         &none          &none
-&trans  &mt C_PREVIOUS C_VOLUME_UP  &mt C_STOP KP_NUMBER_7  &mt C_PLAY_PAUSE KP_NUMBER_8  &mt C_NEXT KP_NUMBER_9  &kp KP_NUMLOCK                       &bt BT_SEL 0          &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4   &bt BT_CLR
-&trans  &mt K_MUTE C_VOLUME_DOWN    &kp KP_NUMBER_4         &kp KP_NUMBER_5               &kp KP_NUMBER_6         &trans                 &none         &kp C_BRIGHTNESS_INC  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_META  &none
-&trans  &trans                      &kp KP_NUMBER_1         &kp KP_NUMBER_2               &kp KP_NUMBER_3         &trans                               &kp C_BRIGHTNESS_DEC  &mkp MB4        &none             &none         &mkp MB5       &none
-                                                            &kp KP_NUMBER_0               &mt DELETE BACKSPACE    &trans          &none         &none  &none                 &none           &none
+&none   &kp C_VOLUME_UP           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9       &kp KP_NUMLOCK                       &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&trans  &mt K_MUTE C_VOLUME_DOWN  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6       &trans                               &kp C_BRIGHTNESS_INC  &trans        &trans        &trans        &trans        &none
+&trans  &trans                    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3       &trans                 &none         &kp C_BRIGHTNESS_DEC  &mkp MB4      &none         &trans        &mkp MB5      &none
+&trans  &trans                    &kp KP_NUMBER_1  &kp KP_NUMBER_0  &mt DELETE BACKSPACE  &trans                               &trans                &trans        &trans        &trans        &trans        &trans
+                                                   &kp KP_NUMBER_0  &mt DELETE BACKSPACE  &trans          &none         &none  &none                 &none         &none
             >;
         };
 
