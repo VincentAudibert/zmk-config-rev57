@@ -93,6 +93,30 @@
             key-positions = <23 11>;
             layers = <0>;
         };
+
+        arrow_left {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <19 32>;
+            layers = <0>;
+        };
+
+        arrow_down {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <20 33>;
+            layers = <0>;
+        };
+
+        arrow_up {
+            bindings = <&kp UP>;
+            key-positions = <21 34>;
+            layers = <0>;
+        };
+
+        arrow_right {
+            bindings = <&kp RIGHT>;
+            key-positions = <22 35>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -110,10 +134,10 @@
 
         numpad {
             bindings = <
-&none   &kp C_VOLUME_UP           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9       &kp KP_NUMLOCK                       &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&trans  &mt K_MUTE C_VOLUME_DOWN  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6       &trans                               &kp C_BRIGHTNESS_INC  &trans        &trans        &trans        &trans        &none
-&trans  &trans                    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3       &trans                 &none         &kp C_BRIGHTNESS_DEC  &mkp MB4      &none         &trans        &mkp MB5      &none
-&trans  &trans                    &kp KP_NUMBER_1  &kp KP_NUMBER_0  &mt DELETE BACKSPACE  &trans                               &trans                &trans        &trans        &trans        &trans        &trans
+&none   &kp C_VOLUME_UP           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9       &kp KP_NUMLOCK                       &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&trans  &mt K_MUTE C_VOLUME_DOWN  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6       &trans                               &kp C_BRIGHTNESS_INC  &trans        &trans         &trans        &trans        &none
+&trans  &trans                    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3       &trans                 &none         &kp C_BRIGHTNESS_DEC  &mkp MB4      &kp PAGE_DOWN  &kp PG_UP     &mkp MB5      &none
+&trans  &trans                    &kp KP_NUMBER_1  &kp KP_NUMBER_0  &mt DELETE BACKSPACE  &trans                               &trans                &trans        &trans         &trans        &trans        &trans
                                                    &kp KP_NUMBER_0  &mt DELETE BACKSPACE  &trans          &none         &none  &none                 &none         &none
             >;
         };
