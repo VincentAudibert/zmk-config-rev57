@@ -93,6 +93,30 @@
             key-positions = <23 11>;
             layers = <0>;
         };
+
+        arrow_right {
+            bindings = <&kp RIGHT>;
+            key-positions = <35 22>;
+            layers = <0>;
+        };
+
+        arrow_up {
+            bindings = <&kp UP>;
+            key-positions = <21 34>;
+            layers = <0>;
+        };
+
+        arrow_down {
+            bindings = <&kp DOWN>;
+            key-positions = <20 33>;
+            layers = <0>;
+        };
+
+        arrow_left {
+            bindings = <&kp LEFT>;
+            key-positions = <19 32>;
+            layers = <0>;
+        };
     };
 
     keymap {
