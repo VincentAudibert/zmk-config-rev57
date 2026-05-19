@@ -12,6 +12,11 @@
 #define BASE  0
 #define FN    1
 
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
